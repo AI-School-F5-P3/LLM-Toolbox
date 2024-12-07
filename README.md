@@ -30,7 +30,7 @@ git clone https://github.com/joserodr68/LLM-Toolbox.git
 cd LLM-Toolbox
 ```
 
-2. Create and activate a virtual environment (optional but recommended):
+2. Create and activate a virtual environment (optional):
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -40,11 +40,11 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install crewai langchain openai fastapi uvicorn llama-index
 ```
-The full requirements.txt file is available within the backend folder.
+The full requirements.txt file is available within the `backend` folder.
 
 ## Environment Setup
 
-Create a `.env` file in the project backend folder with your API keys:
+Create a `.env` file in the project `backend` folder with your API keys:
 
 ```
 OPENAI_API_KEY=your_openai_api_key_here
