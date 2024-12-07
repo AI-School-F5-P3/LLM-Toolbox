@@ -40,7 +40,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install crewai langchain openai fastapi uvicorn llama-index
 ```
-(requirements.txt provided within the backend folder)
+The full requirements.txt file is available within the backend folder.
 
 ## Environment Setup
 
