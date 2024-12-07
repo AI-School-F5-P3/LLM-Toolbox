@@ -1,0 +1,71 @@
+find_data:
+  description: >
+    search the web with the search tool, find an analyze recent (as of end of 2024) information related to {subject}, with a focus
+    on finding relationships in the information, explain the situation and provide a clear summary.
+    if {subject} contains an url, scrape the page information and nothing else.
+    - Search for relevant information about  {subject} using SerperDevTool
+    - Use WebsiteSearchTool to find specific information on websites
+    - Extract content from web pages using ScrapeWebsiteTool
+    - Analyze and summarize the gathered information
+    
+  expected_output: >
+    A comprehensive  report that highlights
+    insights related to {subject}. The report should
+    be factual and clear.  Your response in the same language as {subject}
+
+create_content:
+  description: >
+    Based on the insights provided by the Web Search Agent and
+    create a high-quality, blog post that
+    educates and informs the target audience about {subject}.
+    Ensure the content clearly conveys the key findings
+    related to {subject}. . 
+  expected_output: >
+    A high-quality blog post related to {subject},
+    complete with integrated multimedia elements. 
+
+
+
+social_create_content:
+  description: >
+    Based on the insights provided by the Web Search Agent and
+    create  high-quality, social network posts about {subject} (one for Twitter / X, one for Instagram and one for Linkedin)
+    Incorporate emojis and icons that maximize the impact if adequate for the social network, but not for the Linkedin post.
+    Your response in the same language as {subject}.
+    
+  expected_output: >
+    A high-quality social network posts (Twitter, Instagram, Linkedin) related to {subject},
+    The response in the same language as the request
+
+
+monitor_financial_news:
+  description: >
+    Monitor and analyze the latest news and updates related to
+    the financial markets, with a particular focus on {subject}.
+    Identify and summarize the most relevant and impactful news items
+    that could influence market trends or investor decisions.
+    Utilize financial news APIs and real-time market data tools to
+    gather up-to-date information. Focus on detecting trends,
+    regulatory changes, or significant economic indicators that
+    directly relate to {subject}.Your response in the same language as {subject}.
+  expected_output: >
+    A detailed list highlighting the most impactful financial
+    news and updates related to {subject}. This list should include a summary of each one.
+
+
+
+create_financial_content:
+  description: >
+    Based on the insights provided by the financial search  agent, create high-quality, engaging content that
+    informs the target audience about {subject}.
+    Produce a list of latest news and summary. Ensure the content clearly conveys the key findings
+    and recommendations related to {subject}. 
+  expected_output: >
+    A collection of ten high-quality list of news related to {subject}.Your response in the same language as {subject}.
+
+
+
+
+
+
+
