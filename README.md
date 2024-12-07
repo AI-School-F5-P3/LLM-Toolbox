@@ -60,6 +60,9 @@ Follow the instructions in the frontend folder (readme.md) to launch the applica
 ```bash
 python main.py
 ```
+## Run with Docker
+
+Both the front and back end can be run in the corresponding Docker container. Dockerfiles ar provided en each folder-
 
 ## Contributing
 
