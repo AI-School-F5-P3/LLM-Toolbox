@@ -14,3 +14,59 @@ The LLM Toolbox is a FastAPI and React based application that provides multiple 
 - Scientific paper processing and querying
 - Financial News and Stock Fundamental and Technical analysis
 - Image generation via retrieval
+
+
+## Prerequisites
+
+- Python 3.9+
+- pip or conda for package management
+
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/joserodr68/LLM-Toolbox.git
+cd crewai-project
+```
+
+2. Create and activate a virtual environment (optional but recommended):
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install required packages:
+```bash
+pip install crewai langchain openai fastapi
+```
+
+## Environment Setup
+
+Create a `.env` file in the project root with your API keys:
+
+```
+OPENAI_API_KEY=your_openai_api_key_here
+SERPER_API_KEY=your_serper_api_key_here  # Optional for web search
+```
+
+## React Front End
+
+Follow the instructions in the frontend folder (readme.md) to launch the application
+
+## Launch the FastAPI Backend
+
+```bash
+python main.py
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
