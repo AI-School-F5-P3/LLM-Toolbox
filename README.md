@@ -62,7 +62,7 @@ python main.py
 ```
 ## Run with Docker
 
-Both the front and back end can be run in the corresponding Docker container. Dockerfiles ar provided en each folder-
+Both the front-end and back-end can be run in their respective Docker containers. Dockerfiles are provided in each folder.
 
 ## Contributing
 
