@@ -44,16 +44,17 @@ pip install crewai langchain openai fastapi uvicorn llama-index
 
 ## Environment Setup
 
-Create a `.env` file in the project root with your API keys:
+Create a `.env` file in the project backend folder with your API keys:
 
 ```
 OPENAI_API_KEY=your_openai_api_key_here
-SERPER_API_KEY=your_serper_api_key_here  # Optional for web search
+SERPER_API_KEY=your_serper_api_key_here  # used for web search
+GROQ_API_KEY=your_groq_api_key_here
 ```
 
 ## React Front End
 
-Follow the instructions in the frontend folder (readme.md) to launch the application
+Refer to the instructions in the `frontend` folder's `README.md` file to launch the application.
 
 ## Launch the FastAPI Backend
 
