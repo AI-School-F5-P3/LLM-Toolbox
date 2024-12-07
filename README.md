@@ -18,8 +18,9 @@ The LLM Toolbox is a FastAPI and React based application that provides multiple 
 
 ## Prerequisites
 
-- Python 3.9+
+- Python 3.11
 - pip or conda for package management
+- Node.js 
 
 ## Installation
 
@@ -37,8 +38,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install required packages:
 ```bash
-pip install crewai langchain openai fastapi
+pip install crewai langchain openai fastapi uvicorn llama-index
 ```
+(requirements.txt provided within the backend folder)
 
 ## Environment Setup
 
