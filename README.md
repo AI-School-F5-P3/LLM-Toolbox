@@ -26,7 +26,7 @@ The LLM Toolbox is a FastAPI and React based application that provides multiple 
 1. Clone this repository:
 ```bash
 git clone https://github.com/joserodr68/LLM-Toolbox.git
-cd crewai-project
+cd LLM-Toolbox
 ```
 
 2. Create and activate a virtual environment (optional but recommended):
